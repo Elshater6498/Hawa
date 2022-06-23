@@ -1,3 +1,11 @@
+:root {
+    --hue: 297;
+    --sat: 73%;
+    --lig: 24%;
+    --first-clr: hsl(var(--hue), var(--sat), var(--lig));
+    --first-clr-alt: hsla(var(--hue), var(--sat), var(--lig), .8)
+}
+
 /* ===============
     header
 ================ */
