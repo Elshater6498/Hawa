@@ -1,3 +1,5 @@
+/*======== Variables =========*/
+
 :root {
     --hue: 297;
     --sat: 73%;
@@ -6,9 +8,34 @@
     --first-clr-alt: hsla(var(--hue), var(--sat), var(--lig), .8)
 }
 
-/* ===============
-    header
-================ */
+/*======== Global Styles =========*/
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0 ;
+font-family: sans-serif;
+overflow-x: hidden;
+height: 170rem;
+
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* =============== header ================ */
 
 header{
     color: white;
@@ -63,11 +90,22 @@ background-color: white;
 color: var(--first-clr);
 }
 
+/*======== photo =========*/
+
+.photo{
+    background-image: url("https://ubernewsroomapi.10upcdn.com/wp-content/uploads/2022/05/2048X1152_3_2-2-1080x540.png");
+    /* height: 100vh; */
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    color: white;    
+    justify-content: center;
+}
 
 
-/* ===============
-   footer
-================ */
+/* =============== footer ================ */
 
 footer{
     margin-top: 3rem;
