@@ -59,6 +59,7 @@ header{
 .header__container h1{
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 2px;
+    color: white;
 }
 
 
