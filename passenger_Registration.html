@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Registration</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet '> 
+    <link rel="stylesheet" href="Passenger_Registration.css">
+</head>
+<body>
+
+    <!--=== Header ===-->
+    <header>
+        <div class="header__container">
+
+            <a href="Hawa_home.html">
+                <h1>HAWA</h1>
+            </a>
+            <ul class="nav">
+                <li><a href="about_us.html">about Hawa</a></li>
+                <li><a href="sign_up.html">sign up</a></li>
+                <li><a href="log_in.html">log in</a></li>
+                
+            </ul>
+            
+        </div>
+    </header>
+
+    <main>
+
+        <!--=== Form ===-->
+        <form>
+        <h1>Passenger Registration</h1>
+            <!--=== Full Name & Phone ===-->
+        <div class="full_name">
+            <input type="text" id="full_name" required placeholder="Frist Name">
+            <input type="text" id="Full_Name" required placeholder="Second Name">
+        </div>
+        <input class="phone__num" type="text" id="Phone Number" required placeholder="Enter your phone number">
+        
+            <!--=== Email & Password ===-->
+        <input type="email" id="Email" required placeholder="Ex:Email@gamil.com">
+        <input type="password" id="password" required placeholder="Enter your password">
+        
+
+         
+        
+               <!--=== Files ===-->
+
+                    <div class="national__id">
+                        <label for=" ">National ID:</label>
+                        <input type="file" id="selectedFile" style="display: none;" />
+                        <input type="button" value="Upload your National ID" onclick="document.getElementById('selectedFile').click();" />
+                    </div>
+               
+                
+                    <!--=== Terms & Conditions ===-->
+                <div class="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">I agree to the Terms and Conditions and Privacy Policy</label>
+                </div>
+
+                    <!--=== Submit Button ===-->
+                <input class="submit" type="submit" value="Submit Files">
+            </form>
+           
+    </main>
+
+    <!--=== Footer ===-->
+    <footer>
+        <!--Up Section-->
+        <div class="up__section">
+            <a href="#" class="f__logo">HAWA.</a>
+            <ul>
+                <h1>Company</h1>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+
+            <ul>
+                <h1>About</h1>
+                <li><a href="#">Team & company</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our Services</a></li>
+            </ul>
+
+        </div>
+        
+        <!--Down Section-->
+        <div class="down__section">
+            <ul>
+                <h1>Contact Us</h1>
+                <li><p>+097-2236803</p></li>
+                <li><p>Egypt-Aswan</p></li>
+                <li><p>House #215,Street #5</p></li>
+            </ul>
+        
+
+            <!--Social-->
+            <div class="social">
+                <h1>Social</h1>
+                <div class="social__icons">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+
+            <!--Search-->
+            <div class="search">
+                <h1>Email</h1>
+                <input type="email" placeholder="Enter Your Email">
+            </div>
+        </div>
+
+        <p class="copyright">
+            All Right Reserved &copy; 2020
+        </p>
+
+    </footer>
+</body>
+</html>
